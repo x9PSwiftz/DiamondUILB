@@ -1,4 +1,4 @@
-[[
+
 do
     c = 'Diamond Kaitun'
     local DiamondLib = game:GetService("CoreGui"):FindFirstChild(c)
@@ -1553,4 +1553,3 @@ end
     return tap
 end
 return create
-]])();
