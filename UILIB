@@ -1,9 +1,17 @@
 
 do
+    function RobloxNotify(Ti,tab,icon,sec)
+    game.StarterGui:SetCore("SendNotification", {
+    Title = Ti,
+    Text = tab,
+    Icon = icon,
+    Duration = sec,
+    })
+end	
     c = 'Diamond Kaitun'
     local DiamondLib = game:GetService("CoreGui"):FindFirstChild(c)
     if DiamondLib then
-        DiamondLib:Destroy()
+    RobloxNotify("Diamond Hub","รันซ้อนหาพ่อมีงหรอ",'http://www.roblox.com/asset/?id=8497049935',2)         DiamondLib:Destroy()
     end
 end
 
